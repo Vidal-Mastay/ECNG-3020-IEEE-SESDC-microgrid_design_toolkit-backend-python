@@ -1,0 +1,20 @@
+Model name,Component type,Unit cost,Labour cost,Omcost,Rated Power,Rated lifetime,Area of model,DustP,WindP,SolarP,HumidityP,DustL,WindL,SolarL,HumidityL,Maintenance
+Panel A,PV,500,200,20,0.5,30,1.5,0.1,0.1,0.1,0.1,0,0,0.07,0.03,0.1
+Panel B,PV,100,200,20,1,30,1,0,0,0,0,0,0,0,0,0.1
+Panel C,PV,150,200,20,0.8,30,1.3,0,0,0,0,0,0,0,0,0.1
+Panel D,PV,750,200,20,0.3,30,1000,0.8,0.2,0.12,0.01,0.3,0.01,0.07,0.03,0.1
+Turbine A,Wind turbine,60000,300,40,30,20,30,0.03,0.1,0.02,0.01,0.02,0.12,0.07,0.03,0.12
+Turbine B,Wind turbine,50000,300,40,50,30,45,0.02,0.09,0.3,0.02,0.02,0,0.08,0.04,0.12
+Generator A,Diesel Generator,30000,200,60,600,12,15,0.01,0.02,0.01,0.02,0.01,0.02,0.01,0.06,0.15
+Generator B,Diesel Generator,42000,200,60,500,15,18,0.01,0.02,0.01,0.02,0.01,0,0.01,0.07,0.15
+Inverter A,Inverter,12000,150,15,150,12,5,0,0,0,0,0.02,0.04,0.02,0.05,0.08
+Inverter B,Inverter,17000,150,15,150,15,7,0,0,0,0,0.02,0.05,0.03,0.06,0.08
+Inverter C,Inverter,16000,150,15,150,15,7,0,0,0,0,0.02,0.05,0.03,0.06,0.08
+Battery A,Energy storage    ,9000,250,25,20,8,8,0,0,0,0,0.02,0,0.04,0.06,0.2
+Battery B,Energy storage     ,14000,250,25,40,12,12,0,0,0,0,0.02,0,0.03,0.05,0.2
+PV Charge Controller A,Solar Power management,3000,100,10,40,10,4,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.02,0.05
+PV Charge Controller B,Solar Power management,4000,100,10,60,15,6,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.02,0.05
+Wind Charge Controller A,Wind Power management,3000,100,10,40,10,4,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.02,0.05
+Wind Charge Controller B,Wind Power management,4000,100,10,60,15,6,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.02,0.05
+Converter A,Generator Power management,3000,100,10,40,10,4,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.02,0.05
+Converter B,Generator Power management,4000,100,10,60,15,6,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.02,0.05
