@@ -3,7 +3,7 @@
 [Wiki](https://github.com/Vidal-Mastay/ECNG-3020-IEEE-SESDC-microgrid_design_toolkit-backend-python/wiki)
 
 
-## Dependicies
+## Dependencies
 1.	Python
 2.	Pandas library
 3.	Numpy library
