@@ -48,13 +48,14 @@ from IEEESESDCbackendmethodspython import Optimisation
 ```py
 case_study=Optimisation()
 ```
-3. Once the class variable is instantiated the methods can be used to obtain the results given from data, in the form of a CSV (Example `Data_File_4.csv`) and various imputs to the `solution_setup` method. An example of the expected work flow is shown below:
+3. Once the class variable is instantiated the methods can be used to obtain the results given from data, in the form of a CSV (Example `Data_File_4.csv`) and various imputs to the `solution_setup` method. An example of the general expected work flow is shown below:
 ```py
 case_study.read_in_data('Data_File_4.csv')
 case_study.solution_setup(20,500,0,100,5000,0.30,9,8)
 case_study.Solving()
 initial_list, replacement_list=case_study.component_list()
 ```
+`Usecase_notebook` is a Jupyter notebook further detailing uses case of the developed methods.
 
 ## Author
 Vidal Mastay @Vidal-Mastay
