@@ -26,8 +26,13 @@ The following are a list of the main dependencies required to run the developed 
 7. matplotlib
 
 Installing the aforementioned dependencies can be done as shown below:
-```bash
+```py
 pip install cvxpy
+```
+or
+
+```py
+pip install -r requirements.txt
 ```
 ---
 
