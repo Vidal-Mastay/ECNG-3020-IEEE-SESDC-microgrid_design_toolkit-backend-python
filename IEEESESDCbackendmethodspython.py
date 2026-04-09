@@ -205,7 +205,7 @@ class Optimisation(DataRead):  #Optimisation occurs in a seperate class using in
         :Heatrate:The heatrate of the fuel
         :fuel_cost The cost of fuel 
 
-        Returns the CAPEX and OPEX expression
+        Returns nothing
         """
         if(project_lifetime<0 or peak_load_demand<0 or BatteryCapacity<0 or area_limit<0 or fuel_capacity_value<0 or Heatrate<0 or fuel_cost<0):
             print('Error. Ensure all inputs are nonnegative')   #Cannot have negative power,years,area etc.
