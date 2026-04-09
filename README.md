@@ -64,6 +64,7 @@ initial_list, replacement_list=case_study.component_list()
 
 White Space remover may not work as intended. Solution would be to ensure there is no white space in the CSV.
 
+---
 
 `Usecase_notebook` is a Jupyter notebook further detailing uses case of the developed methods.
 
